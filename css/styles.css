@@ -529,6 +529,9 @@ fill: #f4f4fd;
 
 .backdrop {
 position: fixed;
+opacity: 0;
+visibility: hidden;
+pointer-events: none;
 top: 0;
 left: 0;
 width: 100%;
@@ -703,9 +706,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 }
 
 .policy-checkbox:checked+.policy-text .checkbox-style {
-background-color: var(--hover-color);
+background-color: ;
 border: none;
-fill: var(--bg-team);
+fill: ;
 }
 
 .checkbox-style-svg {
@@ -713,16 +716,13 @@ fill: transparent;
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.policy-checkbox:checked+.policy-text .checkbox-style-svg {
-fill: var(--bg-team);
-}
 
 
 .policy-text {
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
-color: var(--modal-color);
+color: ;
 }
 
 .policy-link {
@@ -751,4 +751,9 @@ margin: 0 auto;
 .form-btn-send:hover,
 .form-btn-send:focus {
 background-color: var(--hover-color);
+}
+.backdrop.is-open{
+visibility: visible;
+opacity: 1;
+pointer-events: auto;
 }
