@@ -663,7 +663,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
-color: var(--title-color);
+color: #2E2F42;
 margin-bottom: 16px;
 }
 
@@ -680,7 +680,7 @@ margin-bottom: 8px;
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
-color: var(--modal-color);
+color: #8e8f99;;
 display: block;
 margin-bottom: 4px;
 }
@@ -705,7 +705,8 @@ color: var(--sub-text-color);
 
 .modal-form input:focus,
 .textarea-form:focus {
-border: 1px solid var(--btn-color);
+border: 1px;
+border-color: #4D5AE5;
 }
 
 .modal-textarea-box {
@@ -714,6 +715,7 @@ margin-bottom: 16px;
 
 .textarea-form {
 outline: none;
+border-color: #4D5AE5;
 border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
 width: 100%;
@@ -722,6 +724,7 @@ font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
 color: rgba(46, 47, 66, 0.4);
+resize: none;
 background-color: transparent;
 padding: 8px 16px;
 outline: transparent;
@@ -772,7 +775,6 @@ border-radius: 2px;
 fill: transparent;
 border: 1px solid rgba(46, 47, 66, 0.4);
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .policy-checkbox:checked+.policy-text .checkbox-style {
@@ -791,9 +793,24 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
-
+color: #8e8f99;
 }
 
+.privacy-policy{
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
+.svg-box {
+    
+}
 .policy-link {
 line-height: 133%;
 text-decoration: underline;
@@ -810,7 +827,7 @@ padding: 16px 32px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background-color: #4d5ae5;
 border: none;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 display: inline-block;
 min-width: 169px;
 height: 56px;
