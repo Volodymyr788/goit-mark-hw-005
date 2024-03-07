@@ -776,9 +776,14 @@ fill: transparent;
 border: 1px solid rgba(46, 47, 66, 0.4);
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.checkbox-style:checked+.privacy-policy{
+    fill:#F4F4FD; 
+    border: none;
+    background-color:#404bbf;
+}
 
 .policy-checkbox:checked+.policy-text .checkbox-style {
-background-color: ;
+background-color: #404bbf;
 /* border: none; */
 }
 
@@ -808,6 +813,7 @@ color: #8e8f99;
     align-items: center;
     justify-content: center;
     fill: transparent;
+
 }
 
 .svg-box {
@@ -817,6 +823,7 @@ color: #8e8f99;
 line-height: 133%;
 text-decoration: underline;
 color: #4d5ae5;
+
 }
 
 .form-btn-send {
@@ -829,7 +836,7 @@ padding: 16px 32px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background-color: #4d5ae5;
 border: none;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 display: inline-block;
 min-width: 169px;
 height: 56px;
