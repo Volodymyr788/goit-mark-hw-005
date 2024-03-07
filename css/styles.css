@@ -523,7 +523,7 @@ background-color:#31d0aa;
 }
 
 .svg {
-    fill: #2e2f42;
+    fill: #f4f4fd;
 }
 
 .footer-subscribe{
@@ -584,7 +584,7 @@ letter-spacing: 0.04em;
 color: #fff;
 }
 
-.footer-subscribe-button a{
+.footer-subscribe-button {
     color: #FFF;
   
 }
