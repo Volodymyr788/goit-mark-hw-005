@@ -502,7 +502,7 @@
 
             <button class="footer-subscribe-button" type="submit">
               Subscribe
-              <svg class="svg-modal" width="24" height="24">
+              <svg class="svg-footer" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -579,22 +579,35 @@
               class="textarea-form"
             ></textarea>
           </div>
-          <div class="form-check">
+          <!-- <div class="form-check">
             <input class="visually-hidden" type="checkbox" id="user-privacy" value="true" name="user-privacy">
             <label class="policy-text" for="user-privacy">
-              I accept the terms and conditions of the
               <span class="privacy-policy">
                 <svg class="click-box" width="10" height="8">
                   <use href="./images/icons.svg#icon-click"></use>
                 </svg>
-
               </span>
+              I accept the terms and conditions of the
               <a class="policy-link">Privacy Policy</a>
-              
             </label>
-           
-            
+          </div> -->
+
+          <div class="checkbox">
+            <input class="visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true">
+            <label class="modal-form-agreement agreement" for="user-privacy">
+              <span class="agreement-checkbox">
+                <svg class="agreement-checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-click"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="agreement-link" href="" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+            </label>
           </div>
+
+
+
+
           <button class="form-btn-send" type="submit">Send</button>
         </form>
       </div>
