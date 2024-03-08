@@ -490,20 +490,23 @@
         <div class="footer-subscribe">
           <p class="footer-subscribe-title">Subscribe</p>
           <form class="footer-subscribe-box">
-            <label for="subscribe-email"></label>
-            <input class="footer-subscribe-input"
-              id="subscribe-email"
-              name="input"
-              type="email"
-              placeholder="E-mail"/>
-              <a class="footer-subscribe-button" href="https://web.telegram.org/">
-                <span>Subscribe</span>
-                <svg class="svg-modal" width="24" height="20">
-                  <use href="./images/icons.svg#icon-send"></use>
-                </svg>
-              </a>
+            <label class="footer-subscribe-label" for="subscribe-email">
+              <input
+                class="footer-subscribe-input"
+                id="subscribe-email"
+                name="input"
+                type="email"
+                placeholder="E-mail"
+              />
+            </label>
+
+            <button class="footer-subscribe-button" type="submit">
+              Subscribe
+              <svg class="svg-modal" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
-          
         </div>
       </div>
     </footer>
@@ -577,7 +580,13 @@
             ></textarea>
           </div>
           <div class="form-check">
-            <input class="checkbox-style" id="user-privacy" type="checkbox" value="true" name="user-privacy">
+            <input
+              class="checkbox-style"
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+            />
             <label class="policy-text" for="user-privacy">
               I accept the terms and conditions of the
               <a class="policy-link">Privacy Policy</a>
