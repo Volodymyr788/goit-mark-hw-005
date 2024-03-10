@@ -681,8 +681,7 @@ margin-bottom: 16px;
 }
 
 .modal-form {
-display: flex;
-flex-direction: column;
+
 }
 
 .modal-form-box {
@@ -717,7 +716,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .form-svg-box input:focus,
 .textarea-form:focus {
-border: 1px;
+
 border-color: #4D5AE5;
 }
 
@@ -911,21 +910,6 @@ input[type="checkbox"]:checked+.modal-form-agreement .agreement-checkbox .agreem
     color: #4d5ae5;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .form-btn-send {
 color: #fff;
 font-weight: 500;
@@ -941,6 +925,7 @@ display: inline-block;
 min-width: 169px;
 height: 56px;
 margin: 0 auto;
+
 }
 
 .form-btn-send:hover,
